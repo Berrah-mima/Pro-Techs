@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo-div"
+        src="/Users/mimaberrah/Downloads/image-test/logo.png"
+        alt="logo-prsonnel"
+      />
+
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services/services.html">Services</a></li>
+        <li><a href="nos-projets/projet.html">Projects</a></li>
+      </ul>
+
+      <div class="btn-header">
+        <button class="btn">
+          <i class="fa-solid fa-phone"></i>
+          <span>Nous Contacter</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="slider">
+      <div class="animation">
+        <video src="particles.mp4" muted="" autoplay=""></video>
+        <h2><span>PRO TECHS</span></h2>
+        <h2>Fibre Optique Cabling & Connection</h2>
+      </div>
+    </div>
+
+    <section class="home-section">
+      <div class="left">
+        <img class="left-ser" src="service.png" alt="chatgpt" />
+        <img class="left-pr" src="pro.png" alt="chatgpt" />
+      </div>
+      <div class="right">
+        <article>
+          <h1>A propo</h1>
+          <p><span>PRO TECHS</span></p>
+          <p>
+            est une entreprise spécialisée dans les solutions de fibre optique,
+            offrant des services d'installation, de maintenance et de rénovation
+            de réseaux de fibre optique. Avec une équipe d'experts passionnés et
+            expérimentés, nous garantissons des services rapides, fiables et
+            conformes aux plus hauts standards de qualité. Depuis notre
+            création, nous avons pour mission de répondre aux besoins croissants
+            de connectivité des entreprises, des fournisseurs de services
+            Internet et des acteurs des télécommunications. Nous mettons un
+            point d'honneur à offrir des solutions sur mesure adaptées aux
+            spécificités de chaque projet, tout en assurant une gestion
+            impeccable des délais et des coûts. L'innovation, la rigueur et la
+            transparence sont au cœur de nos valeurs, et nous nous engageons à
+            accompagner nos clients dans leur transformation digitale avec des
+            installations qui garantissent une performance optimale et durable.
+            Que ce soit pour le tirage de câbles, la soudure de fibres, ou la
+            maintenance de réseaux, Pro Techs est le partenaire de confiance
+            pour une connectivité fiable et de qualité.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <main>
+      <div class="container">
+        <input type="checkbox" id="sent-toggle" />
+
+        <div class="formulaire">
+          <h2>Envoyer un email</h2>
+          <input type="email" placeholder="Votre email" required />
+          <textarea rows="4" placeholder="Votre message" required></textarea>
+          <label for="sent-toggle" class="boutton">Envoyer</label>
+        </div>
+
+        <div id="success-message">Bien envoyé</div>
+      </div>
+      <div class="recrutement">
+        <h2>Nous recrutons des techniciens fibre optique !</h2>
+        <p>
+          Rejoignez l’équipe PRO TECHS et participez à des projets innovants
+          dans la fibre optique partout en France.
+        </p>
+        <ul>
+          <li>📍 Postes en déplacement ou fixes selon votre profil</li>
+          <li>🛠 Formations et accompagnement assurés</li>
+          <li>💼 CDI, alternance ou freelance possibles</li>
+        </ul>
+        <a href="mailto:contact@protechs.fr" class="btn-postuler"
+          >Postuler maintenant</a
+        >
+      </div>
+    </main>
+    <footer>
+      <img
+        class="logo-div"
+        src="/Users/mimaberrah/Downloads/image-test/logo.png"
+        alt="logo-prsonnel"
+      />
+      <img />
+      <p class="droit">« © 2025 PRO TECHS — Tous droits réservés »</p>
+    </footer>
+  </body>
+</html>
